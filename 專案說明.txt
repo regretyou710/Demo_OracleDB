@@ -1,0 +1,17 @@
+-- 操作OracleDB Procedure
+1. 在專案底下建立lib folder
+2. 複製OracleDB中的jdbc.jar到lib
+   file path:\app\orcluser\product\12.1.0\dbhome_1\jdbc\lib
+3. 將jdbc.jar加入library
+4. 搭配SCOTT_Connection_CH19.子程序.sql操作
+
+
+-- VirtaulBox設定
+1. 網路設定->網路->介面卡->進階->轉接埠傳送
+        主機IP:192.168.10.101
+        主機轉接埠 :1522
+        客機IP:10.0.2.15
+        客機轉接埠 :1522
+2. 防火牆設定
+       主機輸出規則:port 1522
+       客機輸入規則:port 1522
